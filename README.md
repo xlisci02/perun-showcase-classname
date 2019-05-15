@@ -36,5 +36,5 @@ In case your identity is not defined, set your user name and email address like 
 The command for launching the fuzzing machine can look similar to this:
 
     mkdir output
-    perun fuzz -b ./regex -w seed.txt -o output -t 900 -mp 4 -mcs unitary
+    perun fuzz -b ./regex -w seed.txt -o output -t 900 -mp 4 -mcs unitary -s . -g .
 
